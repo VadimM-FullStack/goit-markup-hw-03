@@ -286,6 +286,7 @@ img {
   width: 270px;
   height: 368px;
   background: var(--logo-light-color);
+  padding-bottom: 30px;
 }
 
 .team-list-item:not(:last-child) {
@@ -298,9 +299,8 @@ img {
   margin-bottom: 30px;
 }
 
-.team-list-position {
-  margin-top: 10px;
-  margin-bottom: 30px;
+.team-list-name {
+  margin-bottom: 10px;
 }
 
 /*========= FOOTER =========*/
