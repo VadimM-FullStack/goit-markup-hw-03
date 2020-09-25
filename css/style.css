@@ -4,13 +4,13 @@
   --accent-color: #2196f3;
   --title-color: #212121;
   --text-dark-color: #757575;
-  --text-light-color: #ffffff;
-  --logo-dark-color: #000000;
-  --logo-light-color: #ffffff;
+  --text-light-color: #fff;
+  --logo-dark-color: #000;
+  --logo-light-color: #fff;
   --background-dark-color: #2f303a;
   --background-light-color: #f5f4fa;
   --header-border-color: #ececec;
-  --portfolio-border-color: #eeeeee;
+  --portfolio-border-color: #eee;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
 }
 /*========= COMPONENTS =========*/
@@ -74,8 +74,8 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-color);
   padding-bottom: 50px;
 }
@@ -359,9 +359,9 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  text-align: center;
   background: #f5f4fa;
   border-style: none;
   border-radius: 4px;
@@ -399,9 +399,9 @@ img {
   width: 370px;
   height: 404px;
   background-color: var(--text-light-color);
+  box-sizing: border-box;
   border: 1px solid;
   border-color: var(--portfolio-border-color);
-  box-sizing: border-box;
 }
 
 .portfolio-image {
